@@ -8,7 +8,7 @@ using ErrorCodesAndCategoriesWF.Models;
 
 namespace ErrorCodesAndCategoriesWF.Domains
 {
-    public class MyTreeNodes: IDomain
+    public class MyTreeNodes : IDomain
     {
         NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
 

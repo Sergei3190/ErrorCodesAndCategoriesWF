@@ -45,7 +45,7 @@ namespace ErrorCodesAndCategoriesWF.Presenters
             catch (Exception ex)
             {
                 Logger.Error($"{ex.Message}\n{ex.StackTrace}");
-            }         
+            }
         }
     }
 }

@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace ErrorCodesAndCategoriesWF.Models
 {
-    public class MyTasks: IModel
+    public class MyTasks : IModel
     {
         NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         private MyHttpClient client = new MyHttpClient();

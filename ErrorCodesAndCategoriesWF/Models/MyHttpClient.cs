@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ErrorCodesAndCategoriesWF.Models
 {
-    public class MyHttpClient: HttpClient
+    public class MyHttpClient : HttpClient
     {
         private static readonly HttpClient httpClient;
 
